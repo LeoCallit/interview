@@ -5,7 +5,7 @@
 
 ## 演示图片
 <p>根据响应接口类型完成下列演示图片的样式；</p>
-<img src="https://user-images.githubusercontent.com/46668343/175448917-30a960b4-aac7-4c9d-b618-7d0072939944.png" height="200px" />
+<img src="https://user-images.githubusercontent.com/46668343/175456842-5cff9e1c-bae4-42cc-8440-e37fae676a74.png" height="200px" />
 
 ## 要求
 1. 实现演示图片的样式；
@@ -28,4 +28,6 @@
 ````
 
 ## 注意点
-#### - 你需要在该仓库的`Case`目录中构建React项目并完成面试题要求并且提交；
+#### 你需要在该仓库的`case`目录中构建React项目并完成面试题要求并且提交；
+#### 你可以使用一些主流的外部依赖，如：Axios、lodash等；但是禁止使用UI类相关的组件库；
+#### 如果对于题目不明确或存疑，可以电话联系上海心古建筑科技有限公司；
