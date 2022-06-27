@@ -39,9 +39,15 @@ const Input = (props: InputHTMLAttributes<any> & InputProps) => {
         const {keyCode} = event;
         if (keyCode === 8) {
             onRmNode && onRmNode();
+            setState({
+                selectable: !selectable
+            });
         }
         if (keyCode === 13) {
             onAddNode && onAddNode();
+            setState({
+                selectable: !selectable
+            });
         }
     }
 

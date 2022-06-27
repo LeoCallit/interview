@@ -37,7 +37,6 @@ const Tree = (props: TreeProps) => {
         }
         return i;
     }));
-    const [refreshKey, setRefreshKey] = useState(0);
 
     const data = useMemo(() => {
         return d.map((item) => {
@@ -147,7 +146,7 @@ const Tree = (props: TreeProps) => {
     }
 
     return (
-        <div key={refreshKey}>
+        <div>
             {data?.map((item, index) => {
                 return <div key={item.id}>
                     {renderInput(item, index)}
