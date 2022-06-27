@@ -119,8 +119,9 @@ const Tree = (props: TreeProps) => {
                 for (let i = index; i < d.length - 1; i++) {
                     if (d[i + 1].level > d[i].level) {
                         d[i + 1].expandable = !d[i + 1].expandable;
+                    } else {
+                        break;
                     }
-                    break;
                 }
                 const nD = d.map((i, nIndex) => {
                     if (i.id === item.id) {
