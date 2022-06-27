@@ -1,0 +1,15 @@
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.icon-touch {
+    cursor: pointer;
+}
+
+.show {
+    /*display: inline;*/
+}
+
+.hidden {
+    display: none;
+}
